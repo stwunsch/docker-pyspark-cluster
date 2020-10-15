@@ -9,10 +9,10 @@ For the following instructions, I'll assume you have `python3`, `docker` and a L
 ```bash
 # Create and source a virtual Python environment
 python3 -m venv py3_venv
-source py3_venv
+source py3_venv/bin/activate
 
 # Install the dependencies from the requirements.txt
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Have a look at the Dockerfile
