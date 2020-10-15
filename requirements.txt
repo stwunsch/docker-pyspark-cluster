@@ -1,0 +1,2 @@
+docker-compose==1.27.4
+pyspark==3.0.1
