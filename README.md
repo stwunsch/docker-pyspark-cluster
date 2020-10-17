@@ -40,5 +40,5 @@ docker-compose up --scale worker=4
 You'll find [here](test.py) a small test script, which calculates Pi with the just set up standalone Spark cluster. Take care that you set the variable `hostname_master` to the hostname of the device, which runs the cluster. In the script, I assume you run it on `localhost`. Also note the additional configurations of the `SparkSession` setting the hostname of the Spark driver, which submits the tasks to the cluster, which is in our case spawned with running the example Python script.
 
 ```bash
-python3 test.py
+python test.py
 ```
